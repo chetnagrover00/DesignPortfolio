@@ -425,6 +425,7 @@ p{
 	border-radius: 4px;
 	overflow: hidden;
 	transition: all 0.5s ease;
+	text-align:center;
 }
 .course-item:hover .course-img{
 	transform: scale(0.92);
@@ -714,7 +715,9 @@ p{
 	.design-item{
 		justify-content: center;
 	}
-	
+	.fun-facts-img{
+		display:none;
+	}
 }
 
 @media(max-width: 575px){
@@ -731,6 +734,9 @@ p{
 	}
 	.design-item{
 		justify-content: center;
+	}
+	.fun-facts-img{
+		display:none;
 	}
 	
 	}
