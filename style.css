@@ -675,8 +675,7 @@ p{
 		justify-content: center;
 	}
 	.fun-facts-img{
-		widh:200px;
-		height:200px;
+		display:none;
 	}
 
 	.course-item,
