@@ -675,9 +675,6 @@ p{
 		justify-content: center;
 	}
 
-	.fun-facts-img{
-		width: 80%;
-	}
 	.course-item,
 	.why-us-item{
 		width: calc(50% - 30px);
