@@ -437,6 +437,7 @@ p{
 .course-info h3{
 	font-size: 20px;
 	font-weight: 400;
+	text-align: center;
 	text-transform: capitalize;
 	color: var(--white-900);
 	margin-left: 4px;
@@ -479,6 +480,9 @@ p{
 	color: var(--white-900);
 	text-transform: capitalize;
 	margin: 0 0 5px;
+}
+.fun-facts-item a{
+	color: var(--white-900);
 }
 .fun-facts-item p{
 	text-transform: uppercase;
