@@ -715,6 +715,10 @@ p {
 /*RESPONSIVE*/
 
 @media(max-width: 991px) {
+	.home-section .h-100 {
+		padding: 100px 0;
+	}
+
 	.header .nav-toggler {
 		display: flex;
 		margin-right: 15px;
@@ -756,8 +760,13 @@ p {
 
 	.home-img {
 		margin-top: 100px;
-		width: 90%;
+		width: 70%;
+	}
 
+	.home-course-item {
+		height: 60px;
+		width: 60px;
+		font-size: 12px;
 	}
 
 	.design-item {
@@ -781,6 +790,10 @@ p {
 }
 
 @media(max-width: 767px) {
+	.home-section .h-100 {
+		padding: 100px 0;
+	}
+
 	.home-text h2 {
 		font-size: 35px;
 	}
@@ -822,6 +835,10 @@ p {
 	.course-item,
 	.fun-facts-item {
 		width: calc(100% - 30px);
+	}
+
+	.home-section .h-100 {
+		padding: 100px 0;
 	}
 
 	.review-item,
