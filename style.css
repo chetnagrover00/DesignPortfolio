@@ -337,6 +337,7 @@ a {
 
 .btn {
 	display: inline-block;
+	position: relative;
 	padding: 10px 30px;
 	border-radius: 30px;
 	text-transform: capitalize;
@@ -356,6 +357,8 @@ a {
 	border-color: var(--main-color);
 	color: var(--main-color);
 }
+
+
 
 /*why us */
 
